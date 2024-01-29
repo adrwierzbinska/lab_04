@@ -11,7 +11,7 @@ jobs:
 
     strategy: #uruchomienie testów dla różnych wersji Pythona 
       matrix:
-        python-version: [3.9, "3.10", "3.11"]
+        python-version: [3.9, '3.10', '3.11']
 
     steps:
       - name: Set up Python  #konfiguracja środowiska Python
